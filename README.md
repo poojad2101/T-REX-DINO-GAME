@@ -1,6 +1,5 @@
 Game Name: T-REX DINO GAME
 
-
 Premise: 
 
 Do you remember that pretty dull looking black and white dino game when you are offline on chrome??
@@ -11,11 +10,11 @@ This game is ridiculously simple to play and probably the best way to kill your 
 user Story:
 As a user I want to
 
-. be able to press a key to keep the game going
-. 
-. be able to restart after the game is over
-.
-.not to worry about limited lives
+be able to press a key to keep the game going
+
+be able to restart after the game is over
+
+not to worry about limited lives
 
 
 Technologies Used:
