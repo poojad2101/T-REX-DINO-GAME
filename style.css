@@ -51,7 +51,19 @@ p {
     position: relative;
     background-image: url(https://pbs.twimg.com/media/D8Kygw6XYAEeEg8.png);
     background-size:cover;
-    top: 310px;
+    top:  310px;
     left: 560px;
-
+    animation: rock 1.45s infinite;
 }
+@keyframes rock {
+    0%{left:550px;}
+    100%{left: -50px;}
+}
+
+
+
+
+
+
+
+
