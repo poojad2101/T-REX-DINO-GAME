@@ -6,11 +6,8 @@
 
 h1 {
     text-align: center;
-    width: 350px;
-    background-color: white
-    font-size: 25px;
-    margin-left: 450px;
     margin-top: 25px;
+    margin-right: 200px;
     
 }
 
@@ -23,6 +20,7 @@ h1 {
     margin-left: 300px;
     margin-top: 50px;
 
+
     
     
 }
@@ -31,7 +29,8 @@ p {
     text-align: center;
     font-size: 25px;
     margin-top: 25px;
-    margin-right: 25px;
+    margin-right: 55px;
+    font-style: bold;
 
 }
 
@@ -46,6 +45,13 @@ p {
     
 }
 
-rock{
+#rock {
+    height:100px;
+    width: 150px;
+    position: relative;
+    background-image: url(https://pbs.twimg.com/media/D8Kygw6XYAEeEg8.png);
+    background-size:cover;
+    top: 310px;
+    left: 560px;
 
 }
