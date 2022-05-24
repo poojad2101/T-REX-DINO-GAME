@@ -8,7 +8,7 @@ h1 {
     text-align: center;
     width: 350px;
     background-color: white
-    font-size: 28px;
+    font-size: 25px;
     margin-left: 450px;
     margin-top: 25px;
     
@@ -31,15 +31,18 @@ p {
     text-align: center;
     font-size: 25px;
     margin-top: 25px;
+    margin-right: 25px;
 
 }
 
 #dino {
-    height: 65px;
-    width: 65px;
+    height: 90px;
+    width: 75px;
     position:relative;
-    top: 437px;
-    background-color:green;
+    top: 420px;
+    background-image: url(https://media1.giphy.com/media/wbMCFUYDMztMJc8NhJ/giphy.gif?cid=6c09b952v4yk70khopsnytwh4zbhi4t0qh1jtncy9e6nn4x7&rid=giphy.gif&ct=s);
+    background-size: cover;
+
     
 }
 
