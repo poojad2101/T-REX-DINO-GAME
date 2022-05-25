@@ -8,16 +8,17 @@ h1 {
     text-align: center;
     margin-top: 25px;
     margin-right: 200px;
-    
+    font-style: italic;
+   
 }
 
 .game {
     width: 700px;
     height: 500px;
-    border: 2px solid rgb(139, 42, 163);
+    border: 4px solid rgb(239, 8, 28);
     background-image: url(https://img.freepik.com/free-vector/desert-landscape-background-video-conferencing_23-2148647356.jpg);
     background-size:cover;
-    margin-left: 300px;
+    margin-left: 350px;
     margin-top: 50px;
 
 
@@ -30,15 +31,15 @@ p {
     font-size: 25px;
     margin-top: 25px;
     margin-right: 55px;
-    font-style: bold;
+    font-style: italic;
 
 }
 
 #dino {
-    height: 90px;
+    height: 95px;
     width: 75px;
-    position:relative;
-    top: 420px;
+    position:relative; 
+    top: 410px;
     background-image: url(https://media1.giphy.com/media/wbMCFUYDMztMJc8NhJ/giphy.gif?cid=6c09b952v4yk70khopsnytwh4zbhi4t0qh1jtncy9e6nn4x7&rid=giphy.gif&ct=s);
     background-size: cover;
 
@@ -46,14 +47,14 @@ p {
 }
 
 #rock {
-    height:90px;
-    width: 90px;
+    height:60px;
+    width: 60px;
     position: relative;
     background-image: url(https://pbs.twimg.com/media/D8Kygw6XYAEeEg8.png);
     background-size:cover;
-    top:  325px;
-    left: 550px;
-    animation: rock 1.33s infinite;
+    top:  350px;
+    left: 640px;
+    animation: rock 1.40s infinite linear;
    
 }
 
@@ -69,8 +70,8 @@ animation: jump 0.5s;
 
 
 @keyframes jump {
-0%{top: 420px;}
+0%{top: 410px;}
 50%{top: 75px;}
 75%{top: 75px;}
-100%{top: 420px;}
+100%{top: 410px;}
 }
