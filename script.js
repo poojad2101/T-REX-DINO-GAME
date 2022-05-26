@@ -1,7 +1,7 @@
 const dino = document.getElementById("dino");
 const rock = document.getElementById("rock");
-let score = document.getElementById("score");
- let count = Number(score.textContent)
+const score = document.getElementById("score");
+
 
 function jump() {
 
@@ -13,7 +13,7 @@ function jump() {
   
 }
 
-document.addEventListener("keypress", function (event) {
+  document.addEventListener("keypress", function (event) {
   if(dino.classList != "jump-animation") {
   
     jump();
@@ -41,3 +41,5 @@ if(rockLeft < 50 && rockLeft > 0 && dinoTop > 335 ) {
   reload();
 }
 }, 50);
+
+
