@@ -3,20 +3,24 @@ const rock = document.getElementById("rock");
 const score = document.getElementById("score");
 
 function jump() {
+
   dino.classList.add("jump-animation");
-  setTimeout(() =>
-    dino.classList.remove("jump-animation"), 450);
+  
+  setTimeout(function () {
+    dino.classList.remove("jump-animation"); 
+  }, 450);
+  
 }
 
-
 document.addEventListener("keypress", function (event) {
+  if(dino.classList != "jump-animation") {
   
     jump();
 
   }
-)
+})
 
-setInterval(() => {
+setInterval(function () {
     const dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue('top'));
 console.log(dinoTop)
 
