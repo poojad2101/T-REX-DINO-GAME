@@ -9,12 +9,12 @@ This game is ridiculously simple to play and probably the best way to kill your 
 
 # As a user I want to #
 
-➤ be able to press a key to keep the game going
+➤ be able to press any key to keep the game going
  
 ➤ be able to restart after the game is over
 
-➤ not to worry about limited lives
-<<<<<<< HEAD
+➤ have unlimited lives
+
 
 
 # Technologies Used: #
@@ -26,10 +26,6 @@ This game is ridiculously simple to play and probably the best way to kill your 
 ➤ JavaScript (logic and DOM manipulation)
 
 
-
-# Wireframes (what game will look like): #
-
-=======
 
 
 # Technologies Used: #
@@ -45,12 +41,6 @@ This game is ridiculously simple to play and probably the best way to kill your 
 # Wireframes (what game will look like): #
 <img width="697" alt="Screen Shot 2022-05-24 at 2 30 15 AM" src="https://user-images.githubusercontent.com/103016990/169907527-cc571a7a-56d4-4053-a77f-8f6b9566e048.png">
 
-
-
-
-
-
->>>>>>> a2cf423c5371881141201544e7d03c89488bb088
 
 
 

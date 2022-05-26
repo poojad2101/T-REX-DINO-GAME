@@ -35,3 +35,6 @@ if(rockLeft < 0) {
 }, 50);
 
 
+if(rockLeft > 50 && rockLeft > 0 && dinoTop > 335) {
+  alert(gameover);
+}
