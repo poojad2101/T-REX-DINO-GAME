@@ -2,7 +2,6 @@ const dino = document.getElementById("dino");
 const rock = document.getElementById("rock");
 const score = document.getElementById("score");
 
-
 function jump() {
   dino.classList.add("jump-animation");
   setTimeout(() =>
@@ -13,6 +12,7 @@ function jump() {
 document.addEventListener("keypress", function (event) {
   
     jump();
+
   }
 )
 

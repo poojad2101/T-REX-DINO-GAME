@@ -31,7 +31,7 @@ p {
     font-size: 25px;
     margin-top: 25px;
     margin-right: 55px;
-    font-style: italic;
+    font-style:oblique;
 
 }
 
@@ -54,7 +54,7 @@ p {
     background-size:cover;
     top:  350px;
     left: 640px;
-    animation: rock 1.40s infinite linear;
+    animation: rock 1.40s infinite;
    
 }
 
