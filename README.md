@@ -31,6 +31,27 @@ This game is ridiculously simple to play and probably the best way to kill your 
 
 
 # Wireframes (what game will look like): #
+
+
+
+<img width="704" alt="93B66DDB-92EF-40DD-B832-4C34BF099F20" src="https://user-images.githubusercontent.com/103016990/170573672-aa615777-df9f-42fc-a27d-6514330869f8.png">
+
+
+
+
+
+
+
+![1A9500F2-E707-4EB4-A894-9479A0C30A5D_1_201_a](https://user-images.githubusercontent.com/103016990/170573683-12e220cb-37d3-442d-ad7f-43a0a8944fcd.jpeg)
+
+
+
+
+
+
+
+
+
 <img width="697" alt= 
 
 
