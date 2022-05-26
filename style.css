@@ -54,7 +54,7 @@ p {
     background-size:cover;
     top:  350px;
     left: 640px;
-    animation: rock 1.40s infinite;
+    animation: rock 1.40s infinite, linear;
    
 }
 
