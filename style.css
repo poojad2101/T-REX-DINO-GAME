@@ -55,14 +55,14 @@ p {
     background-size:cover;
     top:  350px;
     left: 640px;
-    animation: rock 1.40s infinite, linear;
+    animation: rock 1.50s infinite linear;
    
 }
 
 
 @keyframes rock {
     0%{left: 640px;}
-    100%{left: -90px;}
+    100%{left: -60px;}
 }
 
 .jump-animation {
