@@ -1,6 +1,7 @@
 const dino = document.getElementById("dino");
 const rock = document.getElementById("rock");
-const score = document.getElementById("score");
+let score = document.getElementById("score");
+ let count = Number(score.textContent)
 
 function jump() {
 
@@ -32,9 +33,11 @@ if(rockLeft < 0) {
 } else {
     rock.style.display = '';
 }
-}, 50);
 
 
-if(rockLeft > 50 && rockLeft > 0 && dinoTop > ) {
-  alert(gameover);
+
+if(rockLeft < 50 && rockLeft > 0 && dinoTop > 335 ) {
+  alert("gameover");
+  reload();
 }
+}, 50);
