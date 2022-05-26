@@ -61,7 +61,7 @@ p {
 
 
 @keyframes rock {
-    0%{left: 550px;}
+    0%{left: 640px;}
     100%{left: -90px;}
 }
 
