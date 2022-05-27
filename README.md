@@ -31,7 +31,6 @@ This game is ridiculously simple to play and probably the best way to kill your 
 
 
 # Wireframes (what game will look like): #
-<img width="697" alt= 
 
 
 ![](https://file%2B.vscode-resource.vscode-cdn.net/Users/poojadave/Pictures/Photos%20Library.photoslibrary/originals/9/93B66DDB-92EF-40DD-B832-4C34BF099F20.png?version%3D1653595253674)

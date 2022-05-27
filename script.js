@@ -1,6 +1,5 @@
 const dino = document.getElementById("dino");
 const rock = document.getElementById("rock");
-const score = document.getElementById("score");
 
 
 function jump() {
@@ -19,27 +18,29 @@ function jump() {
     jump();
 
   }
+
 })
 
-setInterval(function () {
-    const dinoTop = parseInt(window.getComputedStyle(dino).getPropertyValue('top'));
-console.log(dinoTop)
+setInterval(() => {
+  
+  const dinoTop = parseInt(window.getComputedStyle(dino)
+    .getPropertyValue('top'));
 
-const rockLeft = parseInt(window.getComputedStyle(rock).getPropertyValue('left'));
-console.log(rockLeft)
+  const rockLeft = parseInt(window.getComputedStyle(rock)
+    .getPropertyValue('left'));
+  
 
-if(rockLeft < 0) {
-    rock.style.display = "none";
-} else {
-    rock.style.display = '';
-}
+  if (rockLeft < 0) {
+    rock.style.display = 'none';
 
+  } else {
+    rock.style.display = ''
+  }
 
+  if (rockLeft < 50 && rockLeft > 0 && dinoTop > 150) {
 
-if(rockLeft < 50 && rockLeft > 0 && dinoTop > 335 ) {
-  alert("gameover");
-  reload();
-}
+    alert("GameOver!" + "\n\nPlay again?");
+    location.reload();
+  } 
 }, 50);
-
 
