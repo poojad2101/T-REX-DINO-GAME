@@ -13,7 +13,7 @@ This game is ridiculously simple to play and probably the best way to kill your 
  
 ➤ be able to restart after the game is over
 
-➤ have unlimited lives
+➤ 
 
 
 
