@@ -35,10 +35,9 @@ if(rockLeft < 0) {
 }
 
 
+alert("GameOver!" + "\n\nPlay again?");
+    location.reload();
 
-if(rockLeft < 50 && rockLeft > 0 && dinoTop > 335 ) {
-  alert("gameover");
-  reload();
 }
 }, 50);
 
