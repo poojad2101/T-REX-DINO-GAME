@@ -9,7 +9,7 @@ This game is ridiculously simple to play and probably the best way to kill your 
 
 # As a user I want to #
 
-➤ be able to press any key to keep the game going
+➤ be able to press any on the game screen to play again.
  
 ➤ be able to restart after the game is over
 
